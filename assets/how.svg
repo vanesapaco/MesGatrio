@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="340" viewBox="0 0 420 340" role="img" aria-label="Cómo funciona el generador de cards">
+  <title>How it works · Mes Gatrio</title>
+  <style>
+    text { font-family:'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif; }
+    .lbl { fill:#b31b2c; font-size:12px; font-weight:700; letter-spacing:2.5px; }
+    .mono { font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace; }
+    .spk { fill:#b31b2c; animation:tw 2.4s ease-in-out infinite; transform-box:fill-box; transform-origin:center; }
+    @keyframes tw { 0%,100% { opacity:.35; transform:scale(.6) rotate(0deg); } 50% { opacity:1; transform:scale(1) rotate(45deg); } }
+
+    .st { opacity:0; animation:in .5s ease-out forwards; }
+    .nn { fill:#fffdf9; font-size:16px; font-weight:800; }
+    .tt { fill:#2b1a1c; font-size:16px; font-weight:800; }
+    .ss { fill:#8a7b78; font-size:12px; font-weight:600; }
+    @keyframes in { from { opacity:0; transform:translateX(-10px); } to { opacity:1; transform:none; } }
+  </style>
+  <rect width="420" height="340" rx="18" fill="#f6f3ee"/>
+  <rect x="1" y="1" width="418" height="338" rx="17" fill="none" stroke="#e8dfd6" stroke-width="1.5"/>
+  <text x="24" y="34" class="lbl">HOW.IT.WORKS</text>
+  <path class="spk" d="M392,23 Q392,30 399,30 Q392,30 392,37 Q392,30 385,30 Q392,30 392,23 Z" style="animation-delay:0.0s"/>
+  <g class="st" style="animation-delay:0.30s">
+    <circle cx="52" cy="92" r="18" fill="#b31b2c"/>
+    <text x="52" y="98" text-anchor="middle" class="nn">1</text>
+    <text x="84" y="88" class="tt">Sube una foto</text>
+    <text x="84" y="108" class="ss">de tu michi o la tuya</text>
+  </g><line x1="52" y1="112" x2="52" y2="136" stroke="#e8dfd6" stroke-width="3" stroke-dasharray="3 5"/><g class="st" style="animation-delay:0.65s">
+    <circle cx="52" cy="154" r="18" fill="#b31b2c"/>
+    <text x="52" y="160" text-anchor="middle" class="nn">2</text>
+    <text x="84" y="150" class="tt">Elige tu emote</text>
+    <text x="84" y="170" class="ss">3 opciones del mes patrio</text>
+  </g><line x1="52" y1="174" x2="52" y2="198" stroke="#e8dfd6" stroke-width="3" stroke-dasharray="3 5"/><g class="st" style="animation-delay:1.00s">
+    <circle cx="52" cy="216" r="18" fill="#b31b2c"/>
+    <text x="52" y="222" text-anchor="middle" class="nn">3</text>
+    <text x="84" y="212" class="tt">Genera tu card</text>
+    <text x="84" y="232" class="ss">GIF animado con marco</text>
+  </g><line x1="52" y1="236" x2="52" y2="260" stroke="#e8dfd6" stroke-width="3" stroke-dasharray="3 5"/><g class="st" style="animation-delay:1.35s">
+    <circle cx="52" cy="278" r="18" fill="#b31b2c"/>
+    <text x="52" y="284" text-anchor="middle" class="nn">4</text>
+    <text x="84" y="274" class="tt">Actualiza tu profile</text>
+    <text x="84" y="294" class="ss">y súmate al ranking</text>
+  </g>
+</svg>
